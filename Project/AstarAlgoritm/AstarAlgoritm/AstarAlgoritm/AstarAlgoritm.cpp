@@ -172,7 +172,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			}
 			SetTimer(hWnd, 1, 100, NULL);
 		}
-
 	}
 	InvalidateRgn(hWnd, NULL, TRUE);
 	break;
